@@ -38,16 +38,16 @@ Description: Native Polyglot Studio with AI Assistance, Auto-Completion and MCP 
  TypeScript (.ts), HTML5 (.html), and Markdown (.md).
 
 Package: mithrandir
-Version: 0.4.0
+Version: 0.4.1
 Architecture: all
 Maintainer: Antonio <antonio@localhost>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, dconf-gsettings-backend | gsettings-backend
 Recommends: papirus-icon-theme, clamav, clamav-freshclam, clamav-daemon
-Filename: pool/main/m/mithrandir/mithrandir_0.4.0_all.deb
-Size: 797504
-MD5sum: 19c81ed8809ef14ef676745377587c08
-SHA1: 850d924df4821c09f6b850910c01cf406fc3a4a7
-SHA256: cf90b6d65682a1186f541a4b64f17b71c00b040f5eb32bfd913094f4e91148fc
+Filename: pool/main/m/mithrandir/mithrandir_0.4.1_all.deb
+Size: 798860
+MD5sum: bbd338d1ddb2c339448391dc94beeb92
+SHA1: bbec17095c9845992f0a0aadfbbb19d77e5cd218
+SHA256: 496d90f276a446b2b15390d23f8cfde35a2ed9e28f9c5a871bfa08c398ec0965
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/mithrandir
@@ -58,16 +58,16 @@ Description: Modern GNU/Linux System Cleaner, Maintenance, and AI Diagnostics
  malware and ransomware detection with ClamAV, and AI-assisted troubleshooting.
 
 Package: mithrandir-rs
-Version: 0.4.0
+Version: 0.4.1
 Architecture: amd64
 Maintainer: Antonio <antonio@localhost>
 Depends: libgtk-4-1, libadwaita-1-0, dconf-gsettings-backend | gsettings-backend
 Recommends: papirus-icon-theme
-Filename: pool/main/m/mithrandir-rs/mithrandir-rs_0.4.0_amd64.deb
-Size: 1449888
-MD5sum: 15bb4bfd0e2a648a53d7308fe7f89c47
-SHA1: 77dca268ef5a2ca0d5ff30bd1808730398beab32
-SHA256: 6c693fa2a58466775c48a14cf7a8987bf1f455ec2de0e11f920ac2ecbe54f8a6
+Filename: pool/main/m/mithrandir-rs/mithrandir-rs_0.4.1_amd64.deb
+Size: 1462928
+MD5sum: 5426d07afad13b85ac564377ccf21bcb
+SHA1: ce05d9666baa3c73655e10081223cd8d5d988ec3
+SHA256: 254c5acc796817cb4f190e038ef7cf61e9136ed0ccb2468d1d98f84638d414a7
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/mithrandir-rs
@@ -114,17 +114,17 @@ Description: Validity VFS5011 Fingerprint Sensor Linux Driver Fix & Installer
  distributions.
 
 Package: vingilot
-Version: 0.1.4-1
+Version: 0.1.5-1
 Architecture: amd64
 Maintainer: Antonio <antux912012@github.com>
-Installed-Size: 10456
+Installed-Size: 10668
 Depends: libc6, libglib2.0-0, libgtk-4-1, libadwaita-1-0, libwebkitgtk-6.0-4
 Recommends: ca-certificates, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad
-Filename: pool/main/v/vingilot/vingilot_0.1.4-1_amd64.deb
-Size: 2673136
-MD5sum: 53e596e3bee093783635122a39b4c37e
-SHA1: 364adfdd24ec8cea31047bcda9ac349b1c44c5e5
-SHA256: 7b40f1d15d183bec00b7d26fa3ffdcd41c00a9381191423af968c18be3990503
+Filename: pool/main/v/vingilot/vingilot_0.1.5-1_amd64.deb
+Size: 2717248
+MD5sum: 096bd83ac3c6f1ce473f9a379b81972b
+SHA1: c945a4e3de3a4c447ec7f8f5040451b58d5d37d0
+SHA256: 17449952ac7816acf1de3a10c9f7aa9972e28555f89f56e34134361237c3744a
 Section: web
 Priority: optional
 Homepage: https://github.com/Antux912012/Vingilot
