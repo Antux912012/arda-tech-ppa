@@ -1,0 +1,191 @@
+Package: cachy-kernel-updater
+Version: 1.1.2
+Architecture: all
+Maintainer: Antonio <antonio@localhost>
+Depends: python3 (>= 3.10), python3-gi, python3-gi-cairo, python3-requests, gir1.2-gtk-4.0, gir1.2-adw-1, policykit-1 | polkitd, build-essential, bc, bison, flex, libssl-dev, libelf-dev, libncurses-dev, libdw-dev, libudev-dev, libpci-dev, libiberty-dev, autoconf, dwarves, pahole, zstd, xz-utils, lz4, cpio, rsync, kmod, fakeroot, dpkg-dev, debhelper, devscripts, clang, llvm, lld, sbsigntool, mokutil, openssl, linux-base, initramfs-tools
+Recommends: podman | docker.io
+Filename: pool/main/c/cachy-kernel-updater/cachy-kernel-updater_1.1.2_all.deb
+Size: 2514284
+MD5sum: 3fd069cde0579e4b72b59ed6299a44da
+SHA1: 338590e5bd1ab1f4df85b3b0e09b1eae187b00ed
+SHA256: 85efa91388c5528cc07d0ec7b97300f6a411ffa5c84a446171dededda8d90e72
+Section: admin
+Priority: optional
+Description: Debian CachyOS Kernel Installer & Updater (GTK4/Adwaita)
+ A native GTK4/Libadwaita application to check, compile, install, and
+ rollback CachyOS Linux kernels on Debian systems.
+
+Package: imladris
+Version: 0.4.0
+Architecture: amd64
+Maintainer: Antonio De Gaetano <antux912012@users.noreply.github.com>
+Installed-Size: 1324
+Depends: libc6 (>= 2.34), libglib2.0-0t64 | libglib2.0-0 (>= 2.76), libgtk-4-1 (>= 4.12), libadwaita-1-0 (>= 1.5), libgtksourceview-5-0 (>= 5.10), libwebkitgtk-6.0-4 (>= 2.40), libsoup-3.0-0, libjson-glib-1.0-0
+Filename: pool/main/i/imladris/imladris_0.4.0_amd64.deb
+Size: 752868
+MD5sum: 807f4c7ca950a30355cb4f0127de220a
+SHA1: 4bb38723597ba94caf39108b2a8b9121baaa25cf
+SHA256: 0f19e68b2489a7d15e85501582410c0bbbf0eba275a893a5dd35bda460ecbe75
+Section: editors
+Priority: optional
+Homepage: https://github.com/Antux912012/imladris-next-md-editor
+Description: Native Polyglot Studio with AI Assistance, Auto-Completion and MCP Server
+ Imladris is a native Linux Markdown and Polyglot Studio built with
+ Vala, GTK4, Libadwaita, GtkSourceView 5, and WebKitGTK 6.0.
+ Features Dual AI Assistance (Online OpenAI-compatible + Offline llama.cpp),
+ Model Context Protocol (MCP) server, and polyglot auto-completion.
+ Supports Quarto (.qmd), R Markdown (.Rmd), Jupyter (.ipynb),
+ TypeScript (.ts), HTML5 (.html), and Markdown (.md).
+
+Package: mithrandir
+Version: 0.4.0
+Architecture: all
+Maintainer: Antonio <antonio@localhost>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, dconf-gsettings-backend | gsettings-backend
+Recommends: papirus-icon-theme, clamav, clamav-freshclam, clamav-daemon
+Filename: pool/main/m/mithrandir/mithrandir_0.4.0_all.deb
+Size: 797504
+MD5sum: 19c81ed8809ef14ef676745377587c08
+SHA1: 850d924df4821c09f6b850910c01cf406fc3a4a7
+SHA256: cf90b6d65682a1186f541a4b64f17b71c00b040f5eb32bfd913094f4e91148fc
+Section: utils
+Priority: optional
+Homepage: https://github.com/Antux912012/mithrandir
+Description: Modern GNU/Linux System Cleaner, Maintenance, and AI Diagnostics
+ Mithrandir is an intuitive, Libadwaita-based GNU/Linux maintenance utility.
+ It provides deep system cleaning (caches, logs, unneeded packages, Flatpaks, Snaps),
+ realtime hardware and temperature sensor monitoring, systemd service management,
+ malware and ransomware detection with ClamAV, and AI-assisted troubleshooting.
+
+Package: mithrandir-rs
+Version: 0.4.0
+Architecture: amd64
+Maintainer: Antonio <antonio@localhost>
+Depends: libgtk-4-1, libadwaita-1-0, dconf-gsettings-backend | gsettings-backend
+Recommends: papirus-icon-theme
+Filename: pool/main/m/mithrandir-rs/mithrandir-rs_0.4.0_amd64.deb
+Size: 1449888
+MD5sum: 15bb4bfd0e2a648a53d7308fe7f89c47
+SHA1: 77dca268ef5a2ca0d5ff30bd1808730398beab32
+SHA256: 6c693fa2a58466775c48a14cf7a8987bf1f455ec2de0e11f920ac2ecbe54f8a6
+Section: utils
+Priority: optional
+Homepage: https://github.com/Antux912012/mithrandir-rs
+Description: Modern GNU/Linux System Cleaner, Optimizer, Telemetry & Diagnostics in Rust
+ Mithrandir-RS is a blazing-fast, Libadwaita-based GNU/Linux maintenance utility
+ written in Rust. Features include instant one-click Smart Boost, real-time hardware
+ and memory telemetry, parallel clutter cleanup, and GNOME Shell panel integration.
+
+Package: sulimo
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Antonio <antux912012@users.noreply.github.com>
+Depends: libc6
+Provides: arda-probe
+Filename: pool/main/s/sulimo/sulimo_0.1.0_amd64.deb
+Size: 17504
+MD5sum: 590a4eb7f10a9e98c88818d47379a567
+SHA1: b2215863e98e54256bb56b3ecddb715733d9a5b9
+SHA256: f46ee02533451d59d94e2f2e15f73f861cbce7b20fd2ef5d6d21a52d10fc2400
+Section: utils
+Priority: optional
+Homepage: https://github.com/Antux912012/arda-tech
+Description: Sulimo (Arda's Breath) Hardware Capability Probe & Runtime Engine
+ High-performance C11 hardware capability probe (arda-probe) and runtime
+ optimization policy selector for CPU microarchitecture, memory topology,
+ Vulkan, OpenCL, and SYCL compute backends.
+
+Package: vfs5011-linux-fix
+Version: 1.0.0
+Architecture: all
+Maintainer: Antonio <antux912012@users.noreply.github.com>
+Depends: bash, git, build-essential
+Filename: pool/main/v/vfs5011-linux-fix/vfs5011-linux-fix_1.0.0_all.deb
+Size: 6616
+MD5sum: 35cfbd9ca3c943c54b6327740b3e7b5f
+SHA1: bb86ef71a37b0896b3a7b54e846c7de312a8f029
+SHA256: 7ee1cb6fce006c2db07586086222f475b0e8c8459731419c54a3658ef8f94e3f
+Section: admin
+Priority: optional
+Homepage: https://github.com/Antux912012/vfs5011-linux-fix
+Description: Validity VFS5011 Fingerprint Sensor Linux Driver Fix & Installer
+ Automated driver builder, patcher, and installer utility for Validity VFS5011
+ fingerprint sensors (USB IDs 138a:0011, 138a:0017, 138a:0018) on modern Linux
+ distributions.
+
+Package: vingilot
+Version: 0.1.4-1
+Architecture: amd64
+Maintainer: Antonio <antux912012@github.com>
+Installed-Size: 10456
+Depends: libc6, libglib2.0-0, libgtk-4-1, libadwaita-1-0, libwebkitgtk-6.0-4
+Recommends: ca-certificates, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad
+Filename: pool/main/v/vingilot/vingilot_0.1.4-1_amd64.deb
+Size: 2673136
+MD5sum: 53e596e3bee093783635122a39b4c37e
+SHA1: 364adfdd24ec8cea31047bcda9ac349b1c44c5e5
+SHA256: 7b40f1d15d183bec00b7d26fa3ffdcd41c00a9381191423af968c18be3990503
+Section: web
+Priority: optional
+Homepage: https://github.com/Antux912012/Vingilot
+Description: Native GTK4/Libadwaita Web Browser for Linux
+ Vingilot is a lightweight, modern, privacy-respecting browser built
+ with Rust, GTK4, Libadwaita, and WebKitGTK 6.0.
+ Features include vertical tabs, Zen-style tab management, custom accents,
+ native ad blocking, and AI assistant integration.
+
+Package: vingilot-estel
+Version: 0.1.0-alpha-1
+Architecture: amd64
+Maintainer: Antonio <antux912012@github.com>
+Installed-Size: 1796
+Depends: libc6, libglib2.0-0, libgtk-4-1, libadwaita-1-0, libwebkitgtk-6.0-4
+Recommends: ca-certificates, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad
+Filename: pool/main/v/vingilot-estel/vingilot-estel_0.1.0-alpha-1_amd64.deb
+Size: 897972
+MD5sum: eb735fe0b855a4ccf23dd130643825b3
+SHA1: 4db821f25c997d3e07a22771f624f41c23b1178e
+SHA256: cd54e63ac2b15ab5cd58488b00d8c4b5a7a1c257b8f0b20dddbc34fa390c6853
+Section: web
+Priority: optional
+Homepage: https://antux912012.github.io/arda-tech/
+Description: Next-generation GTK4 & Libadwaita Web Browser powered by Mozilla Servo & WebKit
+ Vingilot Estel is an ultra-fast, modern, privacy-respecting browser
+ combining Mozilla Servo engine capability with robust WebKit fallback,
+ styled with Firefox Flame accents and Arctic Nord palettes.
+
+Package: yt-comment-extractor
+Version: 0.2.0
+Architecture: all
+Maintainer: Antonio <antux912012@users.noreply.github.com>
+Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, yt-dlp | python3-yt-dlp
+Filename: pool/main/y/yt-comment-extractor/yt-comment-extractor_0.2.0_all.deb
+Size: 10480
+MD5sum: cab0d7d5befeb0ff2a4d06be6437f944
+SHA1: c8eaccb6283c686edfd427ae742ae6e839a03b9b
+SHA256: 99eb6645516813a2de6911fb2a0b87d183d9ab3d76ac06e65ce2bbedae4f6d57
+Section: utils
+Priority: optional
+Homepage: https://github.com/Antux912012/YT-Comment-Extractor-GTK
+Description: YouTube Comment Extractor (GTK4 / Libadwaita)
+ Graphical utility built with GTK4, Libadwaita, and yt-dlp to extract, filter,
+ export, and analyze comments from YouTube videos, including random winner
+ selection and sentiment export.
+
+Package: yt-comment-extractor-service
+Version: 0.2.0
+Architecture: all
+Maintainer: Antonio <antux912012@users.noreply.github.com>
+Depends: python3, python3-flask, python3-gi, yt-dlp | python3-yt-dlp
+Filename: pool/main/y/yt-comment-extractor-service/yt-comment-extractor-service_0.2.0_all.deb
+Size: 23040
+MD5sum: a6c8c9b0d4203e6601718730518c493f
+SHA1: 8a464b3566a295acdbc9f74856db98800ef79eb9
+SHA256: c64d3d518178d109642742114848040ef05807387be7f865409386890a8a5661
+Section: utils
+Priority: optional
+Homepage: https://github.com/Antux912012/YT-Comment-Extractor-GTK
+Description: YouTube Comment Extractor Background Service & Web UI
+ Background web server and system tray indicator service for YouTube Comment
+ Extractor, providing a local browser dashboard for automated comment scraping.
+

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arda-Tech PPA — Official Debian &amp; Ubuntu APT Repository</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #151921; color: #ECEFF4; }
+    h1, h2, h3, .font-display { font-family: 'Cinzel', serif; }
+    code, pre, .font-mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-amber-400 selection:text-slate-950">
+  <header class="border-b border-amber-500/30 bg-[#181C24]/90 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-slate-800 border border-amber-400/50 flex items-center justify-center font-display font-bold text-amber-300">AT</div>
+        <div>
+          <span class="font-display font-bold text-lg tracking-wider text-white">ARDA-TECH PPA</span>
+          <p class="text-xs font-mono text-cyan-300">Official Debian &amp; Ubuntu APT Repository</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3 text-xs font-mono">
+        <a href="KEY.gpg" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/40">KEY.gpg</a>
+        <a href="https://github.com/Antux912012/arda-tech-ppa" target="_blank" class="px-3 py-1.5 rounded-lg bg-amber-400 text-slate-950 font-semibold hover:brightness-110">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-12 flex-grow space-y-10">
+    <!-- Hero -->
+    <section class="p-8 rounded-2xl bg-[#1E2430] border border-amber-500/40 shadow-2xl">
+      <span class="inline-block text-xs font-mono uppercase tracking-widest px-3 py-1 rounded-full bg-amber-400/15 text-amber-300 border border-amber-400/30 mb-4">
+        RSA-4096 GPG Signed • Debian &amp; Ubuntu PPA
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-bold text-white mb-3">Arda-Tech Official APT PPA</h1>
+      <p class="text-slate-300 max-w-3xl mb-6 leading-relaxed">
+        Install and automatically update all applications by <strong class="text-amber-300">@Antux912012</strong> on Debian (Bookworm, Trixie, Sid), Ubuntu (22.04, 24.04+), Linux Mint, and Pop!_OS using standard <code class="text-cyan-300">apt</code> commands.
+      </p>
+
+      <div class="space-y-4">
+        <div>
+          <div class="flex items-center justify-between mb-1.5">
+            <span class="text-xs font-mono text-amber-300">⚡ Option 1: One-Line Automatic Setup</span>
+            <button onclick="navigator.clipboard.writeText('curl -fsSL https://antux912012.github.io/arda-tech-ppa/setup.sh | sudo bash'); this.textContent='Copied!'" class="text-xs font-mono px-2.5 py-1 rounded bg-slate-800 text-cyan-300 border border-cyan-500/30 hover:bg-slate-700">Copy</button>
+          </div>
+          <pre class="p-4 rounded-xl bg-[#0F1218] border border-slate-700 text-xs sm:text-sm text-cyan-300 overflow-x-auto">curl -fsSL https://antux912012.github.io/arda-tech-ppa/setup.sh | sudo bash</pre>
+        </div>
+
+        <div>
+          <div class="flex items-center justify-between mb-1.5">
+            <span class="text-xs font-mono text-slate-300">🔧 Option 2: Standard Manual APT Setup</span>
+          </div>
+          <pre class="p-4 rounded-xl bg-[#0F1218] border border-slate-700 text-xs sm:text-sm text-slate-200 overflow-x-auto">sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://antux912012.github.io/arda-tech-ppa/KEY.gpg | sudo tee /etc/apt/keyrings/arda-tech.gpg &gt;/dev/null
+echo "deb [signed-by=/etc/apt/keyrings/arda-tech.gpg] https://antux912012.github.io/arda-tech-ppa stable main" | sudo tee /etc/apt/sources.list.d/arda-tech.list
+sudo apt update</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Table -->
+    <section class="space-y-4">
+      <h2 class="text-2xl font-bold text-amber-300">📦 Hosted Packages (10 Applications)</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">Mithrandir</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300">v0.4.0 • all</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">Modern GNU/Linux System Cleaner, Optimizer, ClamAV Anti-Malware &amp; AI Diagnostics (Python / GTK4 / Libadwaita).</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install mithrandir</code>
+            <a href="pool/main/m/mithrandir/mithrandir_0.4.0_all.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">Mithrandir-RS (Rust)</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-orange-500/20 text-orange-300">v0.4.0 • amd64</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">Native Rust GTK4 &amp; Libadwaita System Optimizer, Deep Cleaner, Smart Boost &amp; Sensor Telemetry Suite.</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install mithrandir-rs</code>
+            <a href="pool/main/m/mithrandir-rs/mithrandir-rs_0.4.0_amd64.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">Vingilot Browser</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300">v0.1.4-1 • amd64</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">Privacy-first native GTK4, Libadwaita &amp; WebKitGTK 6.0 web browser with Wayland &amp; Vulkan acceleration.</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install vingilot</code>
+            <a href="pool/main/v/vingilot/vingilot_0.1.4-1_amd64.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">Vingilot Estel</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-purple-500/20 text-purple-300">v0.1.0-alpha-1 • amd64</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">Next-generation GTK4 &amp; Libadwaita web browser powered by Mozilla Servo &amp; WebKit hybrid rendering.</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install vingilot-estel</code>
+            <a href="pool/main/v/vingilot-estel/vingilot-estel_0.1.0-alpha-1_amd64.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">Imladris Studio</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300">v0.4.0 • amd64</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">Native GTK4 &amp; Libadwaita Markdown Editor &amp; Polyglot Studio with GtkSourceView 5, AI assistance &amp; MCP server.</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install imladris</code>
+            <a href="pool/main/i/imladris/imladris_0.4.0_amd64.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">Debian CachyOS Kernel Updater</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300">v1.1.2 • all</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">Automated graphical &amp; CLI forge to fetch, tune, compile, and install CachyOS BORE kernels on Debian.</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install cachy-kernel-updater</code>
+            <a href="pool/main/c/cachy-kernel-updater/cachy-kernel-updater_1.1.2_all.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">YouTube Comment Extractor (GTK)</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300">v0.2.0 • all</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">Graphical utility built with GTK4, Libadwaita, and yt-dlp to extract, filter, and analyze YouTube comments.</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install yt-comment-extractor</code>
+            <a href="pool/main/y/yt-comment-extractor/yt-comment-extractor_0.2.0_all.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">YouTube Comment Extractor Service</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300">v0.2.0 • all</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">Background web server and system tray daemon for YouTube Comment Extractor.</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install yt-comment-extractor-service</code>
+            <a href="pool/main/y/yt-comment-extractor-service/yt-comment-extractor-service_0.2.0_all.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">Súlimo (Arda's Breath)</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-amber-500/20 text-amber-300">v0.1.0 • amd64</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">High-performance C11 hardware capability probe (<code>arda-probe</code>) and runtime optimization policy selector.</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install sulimo</code>
+            <a href="pool/main/s/sulimo/sulimo_0.1.0_amd64.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+
+        <div class="p-5 rounded-xl bg-[#1E2430] border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-start mb-1">
+              <h3 class="font-bold text-lg text-white">Validity VFS5011 Linux Fix</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300">v1.0.0 • all</span>
+            </div>
+            <p class="text-xs text-slate-300 mb-3">Automated Linux driver patcher and installer for Validity VFS5011 fingerprint sensors (138a:0011, 138a:0017, 138a:0018).</p>
+          </div>
+          <div class="flex items-center justify-between gap-2 pt-2 border-t border-slate-700/70">
+            <code class="text-xs text-amber-300">sudo apt install vfs5011-linux-fix</code>
+            <a href="pool/main/v/vfs5011-linux-fix/vfs5011-linux-fix_1.0.0_all.deb" class="text-xs font-mono text-cyan-300 hover:underline">.deb ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-amber-500/20 py-6 text-center text-xs font-mono text-slate-400">
+    Forged by <a href="https://github.com/Antux912012" class="text-amber-300 hover:underline">Antux912012</a> • GPG Key ID: <code>CF9DC18F75B6C72B</code> • <a href="https://antux912012.github.io/arda-tech" class="text-cyan-300 hover:underline">Arda-Tech Flatpak Sanctum</a>
+  </footer>
+</body>
+</html>
