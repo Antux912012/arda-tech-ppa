@@ -121,10 +121,10 @@ Installed-Size: 10672
 Depends: libc6, libglib2.0-0, libgtk-4-1, libadwaita-1-0, libwebkitgtk-6.0-4
 Recommends: ca-certificates, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad
 Filename: pool/main/v/vingilot/vingilot_0.1.6-1_amd64.deb
-Size: 2717472
-MD5sum: e74d57bbe22bed67ef92ac9162e76bbe
-SHA1: 691ac8df4a2fa9bf5e1cab74781ca09ecba0a14b
-SHA256: d5c1700105b2920e70f89c14d43de0409317fc89e09b7222d643c9e024c86f73
+Size: 2717764
+MD5sum: 7bc7c158ae6ecc574f2db2a232ab1f2e
+SHA1: ed8f5f05c135e8590459fbbe4c000aaf1574701d
+SHA256: 1e5b119a2a1adf0e946a63b77d1ec0998b26838914007c5acffcdf51d35c3318
 Section: web
 Priority: optional
 Homepage: https://github.com/Antux912012/Vingilot
@@ -155,15 +155,15 @@ Description: Next-generation GTK4 & Libadwaita Web Browser powered by Mozilla Se
  styled with Firefox Flame accents and Arctic Nord palettes.
 
 Package: yt-comment-extractor
-Version: 0.4
+Version: 0.5
 Architecture: all
 Maintainer: Antonio <antux912012@users.noreply.github.com>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, yt-dlp | python3-yt-dlp
-Filename: pool/main/y/yt-comment-extractor/yt-comment-extractor_0.4_all.deb
-Size: 11220
-MD5sum: 72a4ec81c5d1c3d3ff8648a287a1191c
-SHA1: ec233e81e6a318796c88e3e111a27c88cd7ccefe
-SHA256: 8e8ed3f31522cf2d8ccaf9c046c6543e8b2a834c708880e900d7067783e9a0e6
+Filename: pool/main/y/yt-comment-extractor/yt-comment-extractor_0.5_all.deb
+Size: 11248
+MD5sum: bbca3b6b52b9f649fd3a9b333b8e521a
+SHA1: 59358192cc202d5e8c0772f0397b77bc0530146b
+SHA256: 0721c3b737a0bed71cef95c2bae15fd81dd515e6fd0d268361260eb6e3a92eba
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/YT-Comment-Extractor-GTK
@@ -173,15 +173,15 @@ Description: YouTube Comment Extractor (GTK4 / Libadwaita)
  sampling and CSV export.
 
 Package: yt-comment-extractor-service
-Version: 0.4
+Version: 0.5
 Architecture: all
 Maintainer: Antonio <antux912012@users.noreply.github.com>
 Depends: python3, python3-flask, python3-werkzeug, python3-zeroconf, python3-pil, python3-pystray, python3-gi, gir1.2-gtk-3.0, yt-dlp | python3-yt-dlp
-Filename: pool/main/y/yt-comment-extractor-service/yt-comment-extractor-service_0.4_all.deb
-Size: 24520
-MD5sum: c20fedbce4bcf8ed89d5c77d8e8b40f7
-SHA1: eb90881d97dc4fedd329c15c6fe5e09d182e48c8
-SHA256: ba8d355e5cd8dd50111c2ee084973fc5211022edb76d4cc14445e2ada8265254
+Filename: pool/main/y/yt-comment-extractor-service/yt-comment-extractor-service_0.5_all.deb
+Size: 25212
+MD5sum: 34f59ad52688e3331fcb6f0f5bc81ddc
+SHA1: a9bf8c4566b32e0d8b9e8f948458b8d83c1f5c5b
+SHA256: c845f64260505289cb938369c32c79b9964797251d2a4ba0656669c68cdb7252
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/YT-Comment-Extractor-GTK
