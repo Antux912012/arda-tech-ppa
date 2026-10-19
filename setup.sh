@@ -3,7 +3,8 @@ set -euo pipefail
 
 PPA_URL="https://antux912012.github.io/arda-tech-ppa"
 KEYRING_PATH="/etc/apt/keyrings/arda-tech.gpg"
-LIST_PATH="/etc/apt/sources.list.d/arda-tech.list"
+SOURCES_PATH="/etc/apt/sources.list.d/arda-tech.sources"
+LEGACY_LIST_PATH="/etc/apt/sources.list.d/arda-tech.list"
 
 if [ "$(id -u)" -ne 0 ]; then
   echo "Elevating privileges with sudo..."
@@ -15,9 +16,20 @@ mkdir -p /etc/apt/keyrings
 curl -fsSL "${PPA_URL}/KEY.gpg" -o "${KEYRING_PATH}"
 chmod 644 "${KEYRING_PATH}"
 
-echo "==> [2/3] Configuring APT repository source (${LIST_PATH})..."
-echo "deb [signed-by=${KEYRING_PATH}] ${PPA_URL} stable main" > "${LIST_PATH}"
-chmod 644 "${LIST_PATH}"
+echo "==> [2/3] Configuring APT deb822 repository source (${SOURCES_PATH})..."
+cat << SOURCES_EOF > "${SOURCES_PATH}"
+Types: deb
+URIs: ${PPA_URL}
+Suites: stable
+Components: main
+Signed-By: ${KEYRING_PATH}
+SOURCES_EOF
+chmod 644 "${SOURCES_PATH}"
+
+# Remove legacy .list file if present to eliminate duplicate APT entry warnings
+if [ -f "${LEGACY_LIST_PATH}" ]; then
+  rm -f "${LEGACY_LIST_PATH}"
+fi
 
 echo "==> [3/3] Updating APT package index..."
 apt-get update

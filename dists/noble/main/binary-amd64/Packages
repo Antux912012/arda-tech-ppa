@@ -19,13 +19,13 @@ Package: imladris
 Version: 0.4.0
 Architecture: amd64
 Maintainer: Antonio De Gaetano <antux912012@users.noreply.github.com>
-Installed-Size: 1324
+Installed-Size: 1344
 Depends: libc6 (>= 2.34), libglib2.0-0t64 | libglib2.0-0 (>= 2.76), libgtk-4-1 (>= 4.12), libadwaita-1-0 (>= 1.5), libgtksourceview-5-0 (>= 5.10), libwebkitgtk-6.0-4 (>= 2.40), libsoup-3.0-0, libjson-glib-1.0-0
 Filename: pool/main/i/imladris/imladris_0.4.0_amd64.deb
-Size: 752868
-MD5sum: 807f4c7ca950a30355cb4f0127de220a
-SHA1: 4bb38723597ba94caf39108b2a8b9121baaa25cf
-SHA256: 0f19e68b2489a7d15e85501582410c0bbbf0eba275a893a5dd35bda460ecbe75
+Size: 759784
+MD5sum: 9bf7b21c368679c9870b7a40392e9892
+SHA1: 23715a7c414d5361c261544fb2034f6107b81bd3
+SHA256: cfcda048dbbaa0b6124cd3fbcec672d406ee8a84c3a5bb1f7adeeffd6d695356
 Section: editors
 Priority: optional
 Homepage: https://github.com/Antux912012/imladris-next-md-editor
