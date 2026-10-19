@@ -114,17 +114,17 @@ Description: Validity VFS5011 Fingerprint Sensor Linux Driver Fix & Installer
  distributions.
 
 Package: vingilot
-Version: 0.1.5-1
+Version: 0.1.6-1
 Architecture: amd64
 Maintainer: Antonio <antux912012@github.com>
-Installed-Size: 10668
+Installed-Size: 10672
 Depends: libc6, libglib2.0-0, libgtk-4-1, libadwaita-1-0, libwebkitgtk-6.0-4
 Recommends: ca-certificates, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad
-Filename: pool/main/v/vingilot/vingilot_0.1.5-1_amd64.deb
-Size: 2717248
-MD5sum: 096bd83ac3c6f1ce473f9a379b81972b
-SHA1: c945a4e3de3a4c447ec7f8f5040451b58d5d37d0
-SHA256: 17449952ac7816acf1de3a10c9f7aa9972e28555f89f56e34134361237c3744a
+Filename: pool/main/v/vingilot/vingilot_0.1.6-1_amd64.deb
+Size: 2717472
+MD5sum: e74d57bbe22bed67ef92ac9162e76bbe
+SHA1: 691ac8df4a2fa9bf5e1cab74781ca09ecba0a14b
+SHA256: d5c1700105b2920e70f89c14d43de0409317fc89e09b7222d643c9e024c86f73
 Section: web
 Priority: optional
 Homepage: https://github.com/Antux912012/Vingilot
