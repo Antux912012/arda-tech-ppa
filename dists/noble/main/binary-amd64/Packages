@@ -155,33 +155,33 @@ Description: Next-generation GTK4 & Libadwaita Web Browser powered by Mozilla Se
  styled with Firefox Flame accents and Arctic Nord palettes.
 
 Package: yt-comment-extractor
-Version: 0.2.0
+Version: 0.3
 Architecture: all
 Maintainer: Antonio <antux912012@users.noreply.github.com>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, yt-dlp | python3-yt-dlp
-Filename: pool/main/y/yt-comment-extractor/yt-comment-extractor_0.2.0_all.deb
-Size: 10480
-MD5sum: cab0d7d5befeb0ff2a4d06be6437f944
-SHA1: c8eaccb6283c686edfd427ae742ae6e839a03b9b
-SHA256: 99eb6645516813a2de6911fb2a0b87d183d9ab3d76ac06e65ce2bbedae4f6d57
+Filename: pool/main/y/yt-comment-extractor/yt-comment-extractor_0.3_all.deb
+Size: 11156
+MD5sum: f71f197081c116907c78a21ce226e5be
+SHA1: 98aa2641b9dae3844fdf1d7e8801b853b6952ecf
+SHA256: 5a3fbae03e55260c4e3087df94eb08932993deb6673b05092375d61f84b9486f
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/YT-Comment-Extractor-GTK
 Description: YouTube Comment Extractor (GTK4 / Libadwaita)
  Graphical utility built with GTK4, Libadwaita, and yt-dlp to extract, filter,
- export, and analyze comments from YouTube videos, including random winner
- selection and sentiment export.
+ export, and analyze comments from YouTube videos, including unbiased random
+ sampling and CSV export.
 
 Package: yt-comment-extractor-service
-Version: 0.2.0
+Version: 0.3
 Architecture: all
 Maintainer: Antonio <antux912012@users.noreply.github.com>
-Depends: python3, python3-flask, python3-gi, yt-dlp | python3-yt-dlp
-Filename: pool/main/y/yt-comment-extractor-service/yt-comment-extractor-service_0.2.0_all.deb
-Size: 23040
-MD5sum: a6c8c9b0d4203e6601718730518c493f
-SHA1: 8a464b3566a295acdbc9f74856db98800ef79eb9
-SHA256: c64d3d518178d109642742114848040ef05807387be7f865409386890a8a5661
+Depends: python3, python3-flask, python3-werkzeug, python3-zeroconf, python3-pil, python3-pystray, python3-gi, gir1.2-gtk-3.0, yt-dlp | python3-yt-dlp
+Filename: pool/main/y/yt-comment-extractor-service/yt-comment-extractor-service_0.3_all.deb
+Size: 24452
+MD5sum: e4a6e07f72b3f7e92fd8d64313b01f79
+SHA1: a35fd63ee7e22aa4601c8e1f406ec8acf2ab1c2d
+SHA256: 7c688b497a68c0e2da69ecb649e7bcd6bdc8c5efeffaca3c4700539e3fbe4103
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/YT-Comment-Extractor-GTK
