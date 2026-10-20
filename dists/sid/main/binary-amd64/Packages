@@ -155,15 +155,15 @@ Description: Next-generation GTK4 & Libadwaita Web Browser powered by Mozilla Se
  styled with Firefox Flame accents and Arctic Nord palettes.
 
 Package: yt-comment-extractor
-Version: 0.5
+Version: 0.6
 Architecture: all
 Maintainer: Antonio <antux912012@users.noreply.github.com>
 Depends: python3, python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, yt-dlp | python3-yt-dlp
-Filename: pool/main/y/yt-comment-extractor/yt-comment-extractor_0.5_all.deb
-Size: 11248
-MD5sum: bbca3b6b52b9f649fd3a9b333b8e521a
-SHA1: 59358192cc202d5e8c0772f0397b77bc0530146b
-SHA256: 0721c3b737a0bed71cef95c2bae15fd81dd515e6fd0d268361260eb6e3a92eba
+Filename: pool/main/y/yt-comment-extractor/yt-comment-extractor_0.6_all.deb
+Size: 155436
+MD5sum: 6ff5fb54f69fea26d28a4b2990bd49f6
+SHA1: b007bd49d324c86bfcdf7eddc2d123bfbc2b7288
+SHA256: 9073cd29ced474ecc0e6d5bb510b7f84733fe1fc0be2079a7da84eac4783aeaf
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/YT-Comment-Extractor-GTK
@@ -173,15 +173,15 @@ Description: YouTube Comment Extractor (GTK4 / Libadwaita)
  sampling and CSV export.
 
 Package: yt-comment-extractor-service
-Version: 0.5
+Version: 0.6
 Architecture: all
 Maintainer: Antonio <antux912012@users.noreply.github.com>
 Depends: python3, python3-flask, python3-werkzeug, python3-zeroconf, python3-pil, python3-pystray, python3-gi, gir1.2-gtk-3.0, yt-dlp | python3-yt-dlp
-Filename: pool/main/y/yt-comment-extractor-service/yt-comment-extractor-service_0.5_all.deb
-Size: 25212
-MD5sum: 34f59ad52688e3331fcb6f0f5bc81ddc
-SHA1: a9bf8c4566b32e0d8b9e8f948458b8d83c1f5c5b
-SHA256: c845f64260505289cb938369c32c79b9964797251d2a4ba0656669c68cdb7252
+Filename: pool/main/y/yt-comment-extractor-service/yt-comment-extractor-service_0.6_all.deb
+Size: 158148
+MD5sum: 8299dafd96b2bd52b770ed21b4a529c9
+SHA1: a459c76ec53092df40c0a3de030631c2707f85dc
+SHA256: 3d07f78c5e5a90e9f536aa0e3e98fda9d76dcf7c901bde9553f7ac3bf95fdc58
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/YT-Comment-Extractor-GTK
