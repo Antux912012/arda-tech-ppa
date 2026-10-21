@@ -83,10 +83,10 @@ Maintainer: Antonio <antux912012@users.noreply.github.com>
 Depends: libc6
 Provides: arda-probe
 Filename: pool/main/s/sulimo/sulimo_0.1.0_amd64.deb
-Size: 17492
-MD5sum: 8a1601ce43493da76e36b9d7f39d8da9
-SHA1: 290a77d8cb6f76809093d9b8a86e43d5c80fd956
-SHA256: 4f90775563bb542be6ed61c95eb0c1eedb250a4270801afc668e7f1c86ee298a
+Size: 17496
+MD5sum: a205c9b34015b25e3cd5bc873e0e32a3
+SHA1: 6ba9cc869c6e45fbd5af605dad229fffa1c9a1fa
+SHA256: e810ca28fb629b28184b8f23a0e2c0e056d38195bc435e7cac2f0a0b470608d1
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/arda-tech
