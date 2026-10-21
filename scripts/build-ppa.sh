@@ -153,7 +153,7 @@ if os.path.exists(ppa_index):
     with open(ppa_index, "w", encoding="utf-8") as fh:
         fh.write(html)
 
-# 2. Update arda-tech-ppa/README.md
+# 2. Update arda-tech-ppa/README.md and arda-tech-ppa/apps.json
 ppa_readme = os.path.join(ppa_dir, "README.md")
 if os.path.exists(ppa_readme):
     with open(ppa_readme, "r", encoding="utf-8") as fh:
@@ -166,6 +166,19 @@ if os.path.exists(ppa_readme):
         )
     with open(ppa_readme, "w", encoding="utf-8") as fh:
         fh.write(md)
+
+ppa_apps_json = os.path.join(ppa_dir, "apps.json")
+if os.path.exists(ppa_apps_json):
+    with open(ppa_apps_json, "r", encoding="utf-8") as fh:
+        apps = json.load(fh)
+    for app in apps:
+        apt_pkg = app.get("aptPackage")
+        if apt_pkg in pkg_info:
+            app["version"] = pkg_info[apt_pkg]["version"]
+            app["debUrl"] = pkg_info[apt_pkg]["debUrl"]
+    with open(ppa_apps_json, "w", encoding="utf-8") as fh:
+        json.dump(apps, fh, indent=2, ensure_ascii=False)
+        fh.write("\n")
 
 # 3. Update arda-tech/apps.json, README.md, pool/, and dists/
 if os.path.isdir(arda_dir):
