@@ -84,10 +84,10 @@ Depends: libc6, libgtk-4-1, libadwaita-1-0
 Recommends: intel-opencl-icd | mesa-opencl-icd, ocl-icd-libopencl1
 Provides: arda-probe
 Filename: pool/main/s/sulimo/sulimo_0.2.0_amd64.deb
-Size: 621064
-MD5sum: 9d140e549f86c0c5bf44321efcd26c9f
-SHA1: c0aaaa285b5c08f0511f7172ffa4f6c63a40a4fd
-SHA256: cbce1572e481be3c59b71ab35943be8e42fa55efc1dcdb81905db1a1ceb26200
+Size: 620308
+MD5sum: 2007d8495ab77f2e1d554c91a9c007bb
+SHA1: 7f902152b541212e51eee1ce6a71dfc143940057
+SHA256: 96618634d132b760589401fb3b33c29d176820ebe5f48af520fe0cfcb7f94d20
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/Sulimo
