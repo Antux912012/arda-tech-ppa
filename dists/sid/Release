@@ -1,32 +1,32 @@
 Architectures: amd64 all
 Codename: sid
 Components: main
-Date: Wed, 21 Oct 2026 14:12:57 +0000
+Date: Wed, 21 Oct 2026 14:15:24 +0000
 Description: Official Arda Tech Debian & Ubuntu APT PPA Repository by Antux912012
 Label: Arda Tech Official PPA
 Origin: Arda Tech PPA
 Suite: sid
 MD5Sum:
- b19f9fdbbac0eac42cdfa21f5d932aa0              239 Release
+ 456c29d55dfabca2e31c769908cc7960              239 Release
  03a82a736ba9d12ecc7f461e50d9f31a             9389 main/binary-all/Packages
- 3ef3a07742b2a2c998e0c5531fbd940c             3850 main/binary-all/Packages.gz
+ 8023a5a5d0c40586cfbf889dc355483e             3850 main/binary-all/Packages.gz
  03a82a736ba9d12ecc7f461e50d9f31a             9389 main/binary-amd64/Packages
- 3ef3a07742b2a2c998e0c5531fbd940c             3850 main/binary-amd64/Packages.gz
+ 8023a5a5d0c40586cfbf889dc355483e             3850 main/binary-amd64/Packages.gz
 SHA1:
- b121c53f217761893bcc0cc15725c1dc3603019d              239 Release
+ dbd3699ecd65ad71cdcb6b3a6d44e9024a2daa94              239 Release
  97a412a91a4ebc1b4b2f9fdcce7949b24c69b659             9389 main/binary-all/Packages
- e1f6e5693202db3f87ae8fb8ef52e4190f29b4bf             3850 main/binary-all/Packages.gz
+ 980c24828b4719cf357b4dc43bbcb7278da7b206             3850 main/binary-all/Packages.gz
  97a412a91a4ebc1b4b2f9fdcce7949b24c69b659             9389 main/binary-amd64/Packages
- e1f6e5693202db3f87ae8fb8ef52e4190f29b4bf             3850 main/binary-amd64/Packages.gz
+ 980c24828b4719cf357b4dc43bbcb7278da7b206             3850 main/binary-amd64/Packages.gz
 SHA256:
- fdb4a53ad26309131917aedd1227faba99eea92c544483b5680d0f16ddefc009              239 Release
+ a1396855c5681250a64d7fca4fd600c712b0021c757fdd5efda2881bc0098d21              239 Release
  25f8cb4574b888e217c5030ea965b5a46638720393bb6b5282ff4c877559c8b2             9389 main/binary-all/Packages
- c6e3d6fa789e26af775976e92a3c02774955f7785dedb5aa10a926f35efdbe1d             3850 main/binary-all/Packages.gz
+ a91a5e45b87583eb7c895c9dec8759ee1625773e1032b09e58e41745ff658e08             3850 main/binary-all/Packages.gz
  25f8cb4574b888e217c5030ea965b5a46638720393bb6b5282ff4c877559c8b2             9389 main/binary-amd64/Packages
- c6e3d6fa789e26af775976e92a3c02774955f7785dedb5aa10a926f35efdbe1d             3850 main/binary-amd64/Packages.gz
+ a91a5e45b87583eb7c895c9dec8759ee1625773e1032b09e58e41745ff658e08             3850 main/binary-amd64/Packages.gz
 SHA512:
- e560cf6a3076d444fd6dd228c8a2ae0b52c87465ec129d592c9bcc77910e0cb987de7379618f3d5341a040f9db8eced8d3f895a224f7c199c6b899678429cc6f              239 Release
+ 54bbf75b06b3bd34cb84886e98fe76be1e12926ac70f391307c4c440bca267e78ef18ebe30cc92acb1b34856d6604d48f72407b4c6ad9516eba1ad5062568d80              239 Release
  1d66e2789dc71fb0cd9307c9456e53a41e0a889dfc9d2647b757006cab1be5792d7cd2ab85afa6bb926b2802eb8fe16597954e6b615aee332106526ac384545c             9389 main/binary-all/Packages
- 5e3d36b32aed4938e38aa8cafeadd1feb636987eccff09055ba75ea7b3526c4a12de42ff22c85c5cb321f3ed7d1cde17c4cd9b044259ccdea2a899c788929978             3850 main/binary-all/Packages.gz
+ 6311582eaddbf68597d006d3babff35ce048feee2b3fd7258b5b31d78b77c5f83efdf8a14c864317d05b00fe76919b2250293d4044f5800c3c16ac8d23fc7f56             3850 main/binary-all/Packages.gz
  1d66e2789dc71fb0cd9307c9456e53a41e0a889dfc9d2647b757006cab1be5792d7cd2ab85afa6bb926b2802eb8fe16597954e6b615aee332106526ac384545c             9389 main/binary-amd64/Packages
- 5e3d36b32aed4938e38aa8cafeadd1feb636987eccff09055ba75ea7b3526c4a12de42ff22c85c5cb321f3ed7d1cde17c4cd9b044259ccdea2a899c788929978             3850 main/binary-amd64/Packages.gz
+ 6311582eaddbf68597d006d3babff35ce048feee2b3fd7258b5b31d78b77c5f83efdf8a14c864317d05b00fe76919b2250293d4044f5800c3c16ac8d23fc7f56             3850 main/binary-amd64/Packages.gz
