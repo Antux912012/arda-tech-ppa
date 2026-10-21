@@ -77,23 +77,26 @@ Description: Modern GNU/Linux System Cleaner, Optimizer, Telemetry & Diagnostics
  and memory telemetry, parallel clutter cleanup, and GNOME Shell panel integration.
 
 Package: sulimo
-Version: 0.1.0
+Version: 0.2.0
 Architecture: amd64
 Maintainer: Antonio <antux912012@users.noreply.github.com>
-Depends: libc6
+Depends: libc6, libgtk-4-1, libadwaita-1-0
+Recommends: intel-opencl-icd | mesa-opencl-icd, ocl-icd-libopencl1
 Provides: arda-probe
-Filename: pool/main/s/sulimo/sulimo_0.1.0_amd64.deb
-Size: 17500
-MD5sum: 38597e67e4ac17939dab2569dcc9152f
-SHA1: 7c4933e018dbcc25d59acdeb5214567ce7c14a48
-SHA256: 7b1e1b1037cb93124764761fa92f971aaa5883459fb5dd8661be58c501c2c1b0
+Filename: pool/main/s/sulimo/sulimo_0.2.0_amd64.deb
+Size: 621064
+MD5sum: 9d140e549f86c0c5bf44321efcd26c9f
+SHA1: c0aaaa285b5c08f0511f7172ffa4f6c63a40a4fd
+SHA256: cbce1572e481be3c59b71ab35943be8e42fa55efc1dcdb81905db1a1ceb26200
 Section: utils
 Priority: optional
-Homepage: https://github.com/Antux912012/arda-tech
-Description: Sulimo (Arda's Breath) Hardware Capability Probe & Runtime Engine
- High-performance C11 hardware capability probe (arda-probe) and runtime
- optimization policy selector for CPU microarchitecture, memory topology,
- Vulkan, OpenCL, and SYCL compute backends.
+Homepage: https://github.com/Antux912012/Sulimo
+Description: Sulimo (Arda's Breath) - Local LLM Engine & Hardware Telemetry
+ High-performance, battery-disciplined local LLM inference engine optimized
+ for Intel Gen8–10 legacy hardware (Broadwell through Comet Lake / Ice Lake).
+ Features zero-copy GGUF static arena memory, asymmetric OpenCL FP16 SIMD8
+ prompt prefill, AVX2 physical-core decode with iGPU RC6 deep sleep, and
+ a responsive Libadwaita/GTK4 desktop interface.
 
 Package: vfs5011-linux-fix
 Version: 1.0.0

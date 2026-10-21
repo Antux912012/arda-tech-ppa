@@ -118,7 +118,7 @@ get_source_version() {
       grep -m1 '^APP_VERSION' "${repo_dir}/main.py" | sed -E 's/.*"([^"]+)".*/\1/'
       ;;
     sulimo)
-      grep -m1 "project(arda_breath" "${repo_dir}/CMakeLists.txt" | sed -E 's/.*VERSION ([0-9.]+).*/\1/'
+      grep -m1 '^version' "${repo_dir}/Cargo.toml" | sed -E 's/.*"([^"]+)".*/\1/'
       ;;
     yt-comment-extractor)
       if [ -f "${repo_dir}/release.json" ]; then

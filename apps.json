@@ -217,19 +217,20 @@
     "repoName": "arda-tech",
     "name": "Súlimo (Arda's Breath)",
     "category": "System",
-    "badge": "C11 • Hardware Probe • Compute Policy",
-    "summary": "High-performance C11 hardware capability probe (arda-probe) and runtime optimization policy selector.",
-    "description": "Súlimo (Arda's Breath) inspects CPU microarchitecture features, cache/memory topology, and Vulkan/OpenCL/SYCL compute backends to select optimal runtime execution profiles.",
-    "version": "0.1.0",
+    "badge": "Rust • GTK4 • Local LLM",
+    "summary": "Local, battery-disciplined LLM inference engine with GTK4 and Libadwaita.",
+    "description": "Súlimo (Arda's Breath) is a high-performance, battery-disciplined local LLM inference engine optimized for Intel Gen8–10 legacy hardware. Features asymmetric OpenCL FP16 prompt prefill, AVX2 physical-core decode with iGPU RC6 deep sleep, and a responsive Libadwaita interface.",
+    "version": "0.2.0",
     "arch": "amd64",
-    "runtime": "Native C11 Binary (.deb)",
+    "runtime": "Native Rust Binary (.deb)",
     "aptPackage": "sulimo",
     "aptInstall": "sudo apt install sulimo",
-    "debUrl": "pool/main/s/sulimo/sulimo_0.1.0_amd64.deb",
+    "debUrl": "pool/main/s/sulimo/sulimo_0.2.0_amd64.deb",
     "repoUrl": "https://github.com/Antux912012/arda-tech-ppa",
     "permissions": [
-      "Native CLI (arda-probe)",
-      "CPU / Memory / GPU Topology Inspection"
+      "Hardware Acceleration (OpenCL / DRI)",
+      "CPU / Memory / GPU Topology Inspection",
+      "GTK4 / Libadwaita Desktop UI"
     ]
   },
   {
