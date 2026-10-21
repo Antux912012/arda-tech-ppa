@@ -4,48 +4,48 @@ Hash: SHA512
 Architectures: amd64 all
 Codename: jammy
 Components: main
-Date: Wed, 21 Oct 2026 10:25:48 +0000
+Date: Wed, 21 Oct 2026 11:02:06 +0000
 Description: Official Arda Tech Debian & Ubuntu APT PPA Repository by Antux912012
 Label: Arda Tech Official PPA
 Origin: Arda Tech PPA
 Suite: jammy
 MD5Sum:
- e687544dd44188f5013e8df5b0e118e8              243 Release
- f4a63555b8e3fe7aabc13820e0d096ef             9306 main/binary-all/Packages
- 3c1c049847174e4b0c4a46dd125fbe86             3810 main/binary-all/Packages.gz
- f4a63555b8e3fe7aabc13820e0d096ef             9306 main/binary-amd64/Packages
- 3c1c049847174e4b0c4a46dd125fbe86             3810 main/binary-amd64/Packages.gz
+ d4ea448dd26fd7eec8eebde89f46d534              243 Release
+ 40728831869431b361b5658ae716ea1e             9306 main/binary-all/Packages
+ 661ddca62c52f30cf1b8af1cdb845153             3808 main/binary-all/Packages.gz
+ 40728831869431b361b5658ae716ea1e             9306 main/binary-amd64/Packages
+ 661ddca62c52f30cf1b8af1cdb845153             3808 main/binary-amd64/Packages.gz
 SHA1:
- c58929a2ff75418909a0ae72facc4ed5e688ea9a              243 Release
- 741108214b2e7c2e7893ddc431e210099dcfc0bb             9306 main/binary-all/Packages
- 5a8e51cc6d078b226724c7cfa08a4c744879ed11             3810 main/binary-all/Packages.gz
- 741108214b2e7c2e7893ddc431e210099dcfc0bb             9306 main/binary-amd64/Packages
- 5a8e51cc6d078b226724c7cfa08a4c744879ed11             3810 main/binary-amd64/Packages.gz
+ 1c360f3aecbd5f465d2c52399d5061d8683b89c2              243 Release
+ 1959d9a2773a8103b3a9e9d6b88db0824e8f1c70             9306 main/binary-all/Packages
+ 8b1f054ea0789bdcc51689044a043357922ba828             3808 main/binary-all/Packages.gz
+ 1959d9a2773a8103b3a9e9d6b88db0824e8f1c70             9306 main/binary-amd64/Packages
+ 8b1f054ea0789bdcc51689044a043357922ba828             3808 main/binary-amd64/Packages.gz
 SHA256:
- f99d72ebbe006dda37ecf60d7dc118ef7d20eab76457cda0f94de973405a016a              243 Release
- 58653ea6f6f70cf9ce8b25ed08033673bacdcb8f150e7ea8ee831cdb5e117f30             9306 main/binary-all/Packages
- c1d08471da37443a084ba75208557563df095d1a0f986b1983aafc9b0486260d             3810 main/binary-all/Packages.gz
- 58653ea6f6f70cf9ce8b25ed08033673bacdcb8f150e7ea8ee831cdb5e117f30             9306 main/binary-amd64/Packages
- c1d08471da37443a084ba75208557563df095d1a0f986b1983aafc9b0486260d             3810 main/binary-amd64/Packages.gz
+ 04892f505e39c3e260bce21b194c3b9526655de904c93bd01c8c9ad81f883e7a              243 Release
+ c3fd96b7d5087d9e0ce18b62a877791cb60ebe446a857819ce00097dfa1df868             9306 main/binary-all/Packages
+ d3be080379b0c9ee224ef710ee91e988bde3a801d6fcce8e9a4860b7f3e2eb31             3808 main/binary-all/Packages.gz
+ c3fd96b7d5087d9e0ce18b62a877791cb60ebe446a857819ce00097dfa1df868             9306 main/binary-amd64/Packages
+ d3be080379b0c9ee224ef710ee91e988bde3a801d6fcce8e9a4860b7f3e2eb31             3808 main/binary-amd64/Packages.gz
 SHA512:
- 2e21c78364d2c204a19f34963279581e3163298d09e984ab046c3460a2fb50fb990905473768385a1c61632a36737f28bbad76cadf65fd1a087f8faaa6a3fd26              243 Release
- bf976dbfc2ea4538783b6cfd10ad289e9ad27df0a66c9fe32ffb541d3ef67cf1010ecb5cc2483e6cef96e4fd3e43aed3aa00a2cac73ffbf6e1957e0912f975d6             9306 main/binary-all/Packages
- 62f6d86d351675541ef0aaa4e8ad595f85c41e2dd5bbb88791cd85c682e8bee2a89ea5c794c6e8c58d1a3b12b06a940924852e910f73b523a5764cd034befbb2             3810 main/binary-all/Packages.gz
- bf976dbfc2ea4538783b6cfd10ad289e9ad27df0a66c9fe32ffb541d3ef67cf1010ecb5cc2483e6cef96e4fd3e43aed3aa00a2cac73ffbf6e1957e0912f975d6             9306 main/binary-amd64/Packages
- 62f6d86d351675541ef0aaa4e8ad595f85c41e2dd5bbb88791cd85c682e8bee2a89ea5c794c6e8c58d1a3b12b06a940924852e910f73b523a5764cd034befbb2             3810 main/binary-amd64/Packages.gz
+ 2fafc0cc481bf2576de268412d14988ce6238530b6f5bf37dd164024eb738db3bd2f9c53aa8298093a5ed41fb449550470478af1beeb33bff54a685a1cca039b              243 Release
+ ef12514d00421078ac9184af1237881e2f91ca6424be8d94dcbbfc874f7deeed72cb68a65d9417ab28d5edd6eb5fa10ba3c2bf72ffd11fc3a9b5269f02b04df5             9306 main/binary-all/Packages
+ 489f328de3b416e79441d5a792400f7439065adfb180767541fe1e39f9c0c2b25e27d55471e83e7148223788c23b54f029656b8c9306b2e284db5ddcd04d7cd7             3808 main/binary-all/Packages.gz
+ ef12514d00421078ac9184af1237881e2f91ca6424be8d94dcbbfc874f7deeed72cb68a65d9417ab28d5edd6eb5fa10ba3c2bf72ffd11fc3a9b5269f02b04df5             9306 main/binary-amd64/Packages
+ 489f328de3b416e79441d5a792400f7439065adfb180767541fe1e39f9c0c2b25e27d55471e83e7148223788c23b54f029656b8c9306b2e284db5ddcd04d7cd7             3808 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEXvPzob5zvJ72PU152KEm+2tjUU0FAmrYkywACgkQ2KEm+2tj
-UU28fg//QnrIQaIWKGqDVVMSHnvfnvLId/VEhCvfgHJprFI2ynPACMHe8Enq7J74
-IeoGqBAJLXwY4LFMzEpbFiw0+YIasEm4rNa3NXKDPEozRn6incTGui9MGuRsM52Y
-niYddD0U96cwNn3u/XINu862wr40c1PRyVJAP8HNinAY8wWo/Aqu11CHYz8hzaec
-pO98tyHnSySKLtY3G+86g9vhWFTCwIpYmqPFASRLKWOcSn6FCqjOY6Lcsm35bXYc
-aasgMYV8XpOrRzvfU+upw9f7Jx42LHCRtRSqB2GKiq+x1JaD+JNrdJ/hrUa44Gui
-cZvOThZPkk5DA/mw/8xBxxsnPlPPn2RuufFshxPRuM0G3zoDb8kbiPGukLlkGq62
-/EwKlLFYJiFg7xzdHWxy2vVZCopI/TF+Of05MXzvaV7Imp2I5P2dhGaBMXtlLumN
-nnYm/91BAZ1T4T3eH5W1Fih8uL3tFG8uWMAdVDBZWX91ITKNeKgXkXucBQqQxxop
-C77Qr9A2liHI78XvkyPxLxeXDLOrbR96ufkpUTD4Krrez7OIRRO/Mhsid+801oab
-JGOmnGISDMooIjtrWXG2GdWZulp31UJd/hL1VUHoRDZdbMSpDVXTvSR7OiEUjxF3
-g2/tINJQZjb/9BSFJFpYV/+eK9RBCZopU2uTDEbgT6hQ9VJM6DM=
-=PW2R
+iQIzBAEBCgAdFiEEXvPzob5zvJ72PU152KEm+2tjUU0FAmrYm64ACgkQ2KEm+2tj
+UU3OQQ//Zb1X5Bs3ETiZTFpleJ6E8GKI5eGErpjQ+QSUX9ZXztDNd95ojR/rgpPB
+izRfvO0Qb43LZbPnb08l4RYVk/Mas3427vbdy6qJMb+M1gFGITMig5erabthVLmW
+wUkqIylEVH7mWONisFfmYQMg/qUsErAXqoaY3uJ72++MAFrT486niEmpFyHToEwZ
+8vXM9+JX6laz7KpA6K3avOWqlh5cNCZN0iA6BjpB7wrITSdrtToLttIDYNV16xve
+9XSV5sd8oVtVeSnplCKDEkTnR7q00bFIjDJFS3zlm6AK1hsAOEk1SC6zLJs4dq+e
+T8GVt0ZwLlpd0FLrok34+BCrwQgu8LNvOsPM0hStx78nrYiwsGawH8vwvorQtTbd
+rf90v6faMfYmtkq/WrGGUj4X/8/1O2PFYpZLo+DjYELQg5AL/cxsqzilZDQRaH5o
+VT9WjSy22T/M3qHtwwWuUTgMy+/HIhdkefvKfuu0/E0bA+immCcFer+OpQNIgNAw
+CYfMm+WbbiMYLl4JHJ29rjmPHlBo+gZSuTTWyCq+vhqnS2j4zl3vQySpSBH4sVpk
+sXnVCxVZlO3h3vUPKee3wAMc7jK718g8VDrQlGNq0fDLMNLnzIZyPEEXPGTVPCHc
+PbzVz1YBnl+zzxFkC4y3DrXk/Ur4r8WUfilWRNpTEjEvVpe0SCA=
+=2i3p
 -----END PGP SIGNATURE-----
