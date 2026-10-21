@@ -77,17 +77,17 @@ Description: Modern GNU/Linux System Cleaner, Optimizer, Telemetry & Diagnostics
  and memory telemetry, parallel clutter cleanup, and GNOME Shell panel integration.
 
 Package: sulimo
-Version: 0.2.0
+Version: 0.3.0
 Architecture: amd64
 Maintainer: Antonio <antux912012@users.noreply.github.com>
 Depends: libc6, libgtk-4-1, libadwaita-1-0
 Recommends: intel-opencl-icd | mesa-opencl-icd, ocl-icd-libopencl1
 Provides: arda-probe
-Filename: pool/main/s/sulimo/sulimo_0.2.0_amd64.deb
-Size: 639056
-MD5sum: cd838dfdd5f6eb8b2db458ca042fa7b1
-SHA1: 6e6593d5aed32964f60a57090cc7f8d40ddc5a67
-SHA256: 4521f2c30568a0136e41ebe9c5ab8c7e38e041b0b7f5545897ef1f78e2f2012c
+Filename: pool/main/s/sulimo/sulimo_0.3.0_amd64.deb
+Size: 1687332
+MD5sum: e204cdd63d4518dd38f88bd9ab774a88
+SHA1: ed4ab008a90a8424da81b4c1b99dec101fd3fe51
+SHA256: 813fa03b610cc37182bd73f48d3e3acbd00cc5be2d3f6e4b355fbc2a8f20454c
 Section: utils
 Priority: optional
 Homepage: https://github.com/Antux912012/Sulimo

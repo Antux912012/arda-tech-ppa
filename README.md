@@ -60,7 +60,7 @@ Once the PPA is enabled, install any application directly via `sudo apt install 
 | **`cachy-kernel-updater`** | `1.1.2` | `all` | `sudo apt install cachy-kernel-updater` | Automated graphical & CLI forge to fetch, tune, compile, and install CachyOS BORE kernels on Debian | [Antux912012/debian-cachy-kernel-updater](https://github.com/Antux912012/debian-cachy-kernel-updater) |
 | **`yt-comment-extractor`** | `0.6` | `all` | `sudo apt install yt-comment-extractor` | Native GTK4 & Libadwaita GUI tool powered by `yt-dlp` to extract, filter, and analyze YouTube comments | [Antux912012/YT-Comment-Extractor-GTK](https://github.com/Antux912012/YT-Comment-Extractor-GTK) |
 | **`yt-comment-extractor-service`** | `0.6` | `all` | `sudo apt install yt-comment-extractor-service` | Background web dashboard and system tray daemon for YouTube Comment Extractor | [Antux912012/YT-Comment-Extractor-GTK](https://github.com/Antux912012/YT-Comment-Extractor-GTK) |
-| **`sulimo`** | `0.2.0` | `amd64` | `sudo apt install sulimo` | *Súlimo (Arda's Breath)* C11 hardware capability probe (`arda-probe`) and runtime optimization policy engine | [Antux912012/arda-tech](https://github.com/Antux912012/arda-tech) |
+| **`sulimo`** | `0.3.0` | `amd64` | `sudo apt install sulimo` | *Súlimo (Arda's Breath)* C11 hardware capability probe (`arda-probe`) and runtime optimization policy engine | [Antux912012/arda-tech](https://github.com/Antux912012/arda-tech) |
 | **`vfs5011-linux-fix`** | `1.0.0` | `all` | `sudo apt install vfs5011-linux-fix` | Automated Linux driver patcher and installer for Validity VFS5011 fingerprint sensors (`138a:0011`, `138a:0017`, `138a:0018`) | [Antux912012/vfs5011-linux-fix](https://github.com/Antux912012/vfs5011-linux-fix) |
 
 ### Install Everything at Once
